@@ -1,34 +1,5 @@
 <div align="center">
 
-```
-┌──────────────────────────────────────────────────────────────────────┐
-│  ABUUDIII :: COMPUTE DIE                rev. <YEAR>  ·  <ROLE>       │
-├──────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│   cores :: languages + runtimes                                      │
-│      ┌──────┬──────┬──────┬──────┬──────┬──────┬──────┬──────┐       │
-│      │  C   │ C++  │ Rust │ CUDA │  Py  │ Lnx  │ Git  │ ASM  │       │
-│      ├──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┤       │
-│      │  ██  │  ██  │  ░░  │  ██  │  ██  │  ██  │  ██  │  ░░  │       │
-│      └──────┴──────┴──────┴──────┴──────┴──────┴──────┴──────┘       │
-│                  ██ daily driver       ░░ occasional                 │
-│                                                                      │
-│   [ L2 :: <DOMAIN AREA> ]   ◄──────►   [ HBM :: <CURRENT FOCUS> ]    │
-│                                                                      │
-│   location <CITY, COUNTRY>  ·  uptime <N>y  ·  runs hot on <PASSION> │
-└──────────────────────────────────────────────────────────────────────┘
-```
-
-<a href="https://github.com/Abuudiii">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=620&lines=%24+./abuudiii+--init;symbols+loaded.+entering+main()." alt="Typing SVG" />
-</a>
-
-</div>
-
-<br/>
-
-### <samp>❯ stack</samp>
-
 <p>
   <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
   <img src="https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
@@ -41,6 +12,30 @@
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
 </p>
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│  ABUUDIII :: COMPUTE DIE                rev. <YEAR>  ·  <ROLE>       │
+├──────────────────────────────────────────────────────────────────────┤
+│   cores :: languages + runtimes                                      │
+│      ┌──────┬──────┬──────┬──────┬──────┬──────┬──────┬──────┐       │
+│      │  C   │ C++  │ Rust │ CUDA │  Py  │ Lnx  │ Git  │ ASM  │       │
+│      ├──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┤       │
+│      │  ██  │  ██  │  ░░  │  ██  │  ██  │  ██  │  ██  │  ░░  │       │
+│      └──────┴──────┴──────┴──────┴──────┴──────┴──────┴──────┘       │
+│                    ██ daily driver     ░░ casual                     │
+│   [ L2 :: <DOMAIN AREA> ]   ◄──────►   [ HBM :: <CURRENT FOCUS> ]    │
+│   location <CITY, COUNTRY>  ·  uptime <N>y  ·  runs hot on <PASSION> │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+<a href="https://github.com/Abuudiii">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=620&lines=%24+./abuudiii+--init;symbols+loaded.+entering+main()." alt="Typing SVG" />
+</a>
+
+</div>
+
+<br/>
 
 ### <samp>❯ about</samp>
 
@@ -71,11 +66,6 @@ fun_fact  = <SOMETHING QUIRKY>
 ```
 
 ### <samp>❯ telemetry</samp>
-
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Abuudiii&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abuudiii&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" />
-</p>
 
 <img src="https://streak-stats.demolab.com?user=Abuudiii&hide_border=true&theme=tokyonight" alt="streak" height="160" />
 
