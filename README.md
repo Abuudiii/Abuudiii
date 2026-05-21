@@ -2,29 +2,45 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│  ABUUDIII :: COMPUTE DIE                       [ HBM3 · L2 · 4 NoC ] │
+│  ABUUDIII :: COMPUTE DIE                rev. <YEAR>  ·  <ROLE>       │
 ├──────────────────────────────────────────────────────────────────────┤
-│  ┌────┬────┬────┬────┬────┬────┬────┬────┐                           │
-│  │ SM │ SM │ SM │ SM │ SM │ SM │ SM │ SM │   warp   = 32 threads     │
-│  ├────┼────┼────┼────┼────┼────┼────┼────┤   sched  = round-robin    │
-│  │ SM │ SM │ SM │ ██ │ ██ │ SM │ SM │ SM │   occ.   = 87 %           │
-│  ├────┼────┼────┼────┼────┼────┼────┼────┤                           │
-│  │ SM │ SM │ ██ │ ██ │ ██ │ ██ │ SM │ SM │   ██ = active kernel      │
-│  ├────┼────┼────┼────┼────┼────┼────┼────┤                           │
-│  │ SM │ SM │ SM │ ██ │ ██ │ SM │ SM │ SM │                           │
-│  └────┴────┴────┴─┬──┴─┬──┴────┴────┴────┘                           │
-│                   ▼    ▼                                             │
-│             [ L2 cache ]  ◄─────►  [ HBM3 · 6.4 TB/s ]               │
+│                                                                      │
+│   cores :: languages + runtimes                                      │
+│      ┌──────┬──────┬──────┬──────┬──────┬──────┬──────┬──────┐       │
+│      │  C   │ C++  │ Rust │ CUDA │  Py  │ Lnx  │ Git  │ ASM  │       │
+│      ├──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┤       │
+│      │  ██  │  ██  │  ░░  │  ██  │  ██  │  ██  │  ██  │  ░░  │       │
+│      └──────┴──────┴──────┴──────┴──────┴──────┴──────┴──────┘       │
+│                  ██ daily driver       ░░ occasional                 │
+│                                                                      │
+│   [ L2 :: <DOMAIN AREA> ]   ◄──────►   [ HBM :: <CURRENT FOCUS> ]    │
+│                                                                      │
+│   location <CITY, COUNTRY>  ·  uptime <N>y  ·  runs hot on <PASSION> │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
 <a href="https://github.com/Abuudiii">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=620&lines=%24+./abuudiii+--init;loading+symbols...+done.;Software+%2F+Systems+%2F+Low-level+enthusiast." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=620&lines=%24+./abuudiii+--init;symbols+loaded.+entering+main()." alt="Typing SVG" />
 </a>
 
 </div>
 
 <br/>
+
+### <samp>❯ stack</samp>
+
+<p>
+  <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
+  <img src="https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/-ROCm-ED1C24?style=flat-square&logo=amd&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/-GDB-A42E2B?style=flat-square&logo=gnu&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+</p>
 
 ### <samp>❯ about</samp>
 
@@ -50,26 +66,9 @@
 ```ini
 [identity]
 name      = <YOUR NAME>
-role      = <YOUR ROLE>
-location  = <CITY, COUNTRY>
 ask_me    = <TOPICS YOU LOVE>
 fun_fact  = <SOMETHING QUIRKY>
 ```
-
-### <samp>❯ stack</samp>
-
-<p>
-  <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
-  <img src="https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-  <img src="https://img.shields.io/badge/-ROCm-ED1C24?style=flat-square&logo=amd&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/-GDB-A42E2B?style=flat-square&logo=gnu&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
-</p>
 
 ### <samp>❯ telemetry</samp>
 
