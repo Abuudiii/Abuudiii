@@ -25,30 +25,34 @@
 
 ### <samp>❯ about</samp>
 
-```c
-0xFFFFFFFFFFFF  ┌─────────────────────────┐
-                │      kernel space       │  <PRIVILEGED INTERESTS / MISSION>
-                ├─────────────────────────┤  ← %rsp
-                │          stack          │  <RECENT WORK / WHAT I JUST SHIPPED>
-                │            │            │
-                │            ▼            │
-                │                         │
-                │            ▲            │
-                │            │            │
-                │           heap          │  <CURRENTLY LEARNING / GROWING>
-                ├─────────────────────────┤
-                │          .bss           │  <UNINITIALIZED — TBD / WISHLIST>
-                │          .data          │  <CONSTANTS — PRINCIPLES I HOLD>
-                │         .rodata         │  <READ-ONLY — THINGS I BELIEVE>
-                │          .text          │  <ENTRY — WHAT I DO DAY-TO-DAY>
-0x000000400000  └─────────────────────────┘  ← entry point
+```
+   ┌───────────┐      abuudiii@github
+   │ █ █ █ █ █ │      ─────────────────────────────────────
+   │ █ · █ · █ │      OS        : GPU SWE Intern @ AMD
+   │ · █ · █ · │      Host      : University of Calgary
+   │ █ · █ · █ │      Uptime    : 3rd year of CS
+   │ █ █ █ █ █ │      Shell     : zsh + tmux + neovim
+   └───────────┘      Editor    : neovim (btw)
+                      Languages : C · C++ · Rust · Python · CUDA
+                      Location  : Calgary, Canada
+                      Loves     : low-level · HPC · GPU
+                      Reach     : linkedin · mail · github
 ```
 
-```ini
-[identity]
-name      = <YOUR NAME>
-ask_me    = <TOPICS YOU LOVE>
-fun_fact  = <SOMETHING QUIRKY>
+```bash
+abuudiii@gpu:~$ cat ~/.about
+i live close to the metal — chasing how compute actually happens,
+from a thread in a warp all the way down to a transistor.
+
+abuudiii@gpu:~$ ls -la ~/now/
+drwxr-xr-x  hip-runtime/         # learning the AMD GPU stack
+drwxr-xr-x  rocm-internals/      # reading the source
+drwxr-xr-x  compiler-explorer/   # disassembling everything
+drwxr-xr-x  systems-reading/     # CSAPP, Patterson, OS internals
+-rw-r--r--  side-projects.md
+
+abuudiii@gpu:~$ uptime
+3rd year · always shipping · never thermal throttling
 ```
 
 ### <samp>❯ telemetry</samp>
