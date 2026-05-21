@@ -78,7 +78,7 @@ fun_fact  = <SOMETHING QUIRKY>
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abuudiii&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" />
 </p>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abuudiii&hide_border=true&theme=tokyonight" alt="streak" height="160" />
+<img src="https://streak-stats.demolab.com?user=Abuudiii&hide_border=true&theme=tokyonight" alt="streak" height="160" />
 
 ### <samp>❯ trace</samp>
 
