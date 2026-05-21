@@ -25,36 +25,9 @@
 
 ### <samp>❯ about</samp>
 
-```
-                /\
-               /  \           abuudiii@github
-              /    \          ─────────────────────────────────────
-             /  /\  \         OS        : GPU SWE Intern @ AMD
-            /  /  \  \        Host      : University of Calgary
-           /  /----\  \       Uptime    : 3rd year of CS
-          /            \      Shell     : zsh + tmux + neovim
-         /              \     Editor    : neovim (btw)
-        /________________\    Languages : C · C++ · Rust · Python · CUDA
-                              Location  : Calgary, Canada
-                              Loves     : low-level · HPC · GPU
-                              Reach     : linkedin · mail · github
-```
+<img src="./assets/about.svg" alt="abuudiii @ github" width="100%" />
 
-```bash
-abuudiii@gpu:~$ cat ~/.about
-i live close to the metal — chasing how compute actually happens,
-from a thread in a warp all the way down to a transistor.
-
-abuudiii@gpu:~$ ls -la ~/now/
-drwxr-xr-x  hip-runtime/         # learning the AMD GPU stack
-drwxr-xr-x  rocm-internals/      # reading the source
-drwxr-xr-x  compiler-explorer/   # disassembling everything
-drwxr-xr-x  systems-reading/     # CSAPP, Patterson, OS internals
--rw-r--r--  side-projects.md
-
-abuudiii@gpu:~$ uptime
-3rd year · always shipping · never thermal throttling
-```
+<img src="./assets/now.svg" alt="what I'm working on" width="100%" />
 
 ### <samp>❯ telemetry</samp>
 

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 310" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" role="img" aria-label="What I am working on">
+  <defs>
+    <style><![CDATA[
+      text { font-size: 14px; fill: #f5f5f7; }
+      .prompt  { fill: #6e6e73; }
+      .cmd     { fill: #f5f5f7; font-weight: 500; }
+      .quote   { fill: #d1d1d6; }
+      .out     { fill: #f5f5f7; }
+      .comment { fill: #6e6e73; }
+    ]]></style>
+  </defs>
+
+  <rect width="880" height="310" fill="#000000"/>
+
+  <g xml:space="preserve">
+    <text x="80" y="50"><tspan class="prompt">abuudiii@gpu:~$ </tspan><tspan class="cmd">cat ~/.about</tspan></text>
+    <text x="80" y="74"  class="quote">i live close to the metal — chasing how compute actually happens,</text>
+    <text x="80" y="94"  class="quote">from a thread in a warp all the way down to a transistor.</text>
+
+    <text x="80" y="134"><tspan class="prompt">abuudiii@gpu:~$ </tspan><tspan class="cmd">ls -la ~/now/</tspan></text>
+    <text x="80" y="158"><tspan class="out">drwxr-xr-x   hip-runtime/        </tspan><tspan class="comment">  # learning the AMD GPU stack</tspan></text>
+    <text x="80" y="178"><tspan class="out">drwxr-xr-x   rocm-internals/     </tspan><tspan class="comment">  # reading the source</tspan></text>
+    <text x="80" y="198"><tspan class="out">drwxr-xr-x   compiler-explorer/  </tspan><tspan class="comment">  # disassembling everything</tspan></text>
+    <text x="80" y="218"><tspan class="out">drwxr-xr-x   systems-reading/    </tspan><tspan class="comment">  # CSAPP, Patterson, OS internals</tspan></text>
+    <text x="80" y="238" class="out">-rw-r--r--   side-projects.md</text>
+
+    <text x="80" y="278"><tspan class="prompt">abuudiii@gpu:~$ </tspan><tspan class="cmd">uptime</tspan></text>
+    <text x="80" y="302" class="out">3rd year · always shipping · never thermal throttling</text>
+  </g>
+</svg>
