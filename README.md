@@ -27,13 +27,6 @@
 
 <img src="./assets/memory.svg" alt="Process address space" width="100%" />
 
-```ini
-[identity]
-name      = <YOUR NAME>
-ask_me    = <TOPICS YOU LOVE>
-fun_fact  = <SOMETHING QUIRKY>
-```
-
 ### <samp>❯ telemetry</samp>
 
 <img src="https://streak-stats.demolab.com?user=Abuudiii&hide_border=true&theme=tokyonight" alt="streak" height="160" />
