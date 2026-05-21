@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
 </p>
 
-<img src="./assets/compute-die.svg" alt="ABUUDIII :: MI-Y3 compute die" width="100%" />
+<img src="./assets/die.svg" alt="Abuudiii compute die" width="100%" />
 
 <a href="https://github.com/Abuudiii">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=620&lines=%24+./abuudiii+--init;symbols+loaded.+entering+main()." alt="Typing SVG" />
