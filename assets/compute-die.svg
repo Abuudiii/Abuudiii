@@ -6,102 +6,102 @@
       .pulse  { animation: breathe 4s ease-in-out infinite; }
       .drift  { animation: drift 6s linear infinite; }
 
-      text { fill: #1d1d1f; }
+      text { fill: #f5f5f7; }
       .title    { font-size: 38px; font-weight: 600; letter-spacing: -1.2px; }
-      .subtitle { font-size: 14px; fill: #6e6e73; font-weight: 400; }
+      .subtitle { font-size: 14px; fill: #a1a1a6; font-weight: 400; }
       .label    { font-size: 12px; font-weight: 500; letter-spacing: 0.1px; }
       .meta     { font-size: 9.5px; fill: #86868b; font-weight: 500; letter-spacing: 1.4px; text-transform: uppercase; }
-      .footer   { font-size: 13px; fill: #1d1d1f; font-weight: 400; }
+      .footer   { font-size: 13px; fill: #f5f5f7; font-weight: 400; }
       .footer-2 { font-size: 11px; fill: #86868b; font-weight: 400; }
       .hbm-l    { font-size: 9px; fill: #86868b; font-weight: 600; letter-spacing: 2px; }
     ]]></style>
   </defs>
 
-  <rect width="880" height="460" fill="#ffffff"/>
+  <rect width="880" height="460" fill="#000000"/>
 
   <text x="440" y="60"  text-anchor="middle" class="title">Abuudiii</text>
   <text x="440" y="86"  text-anchor="middle" class="subtitle">MI-Y3   ·   GPU SWE Intern   ·   3rd year</text>
 
-  <rect x="80" y="135" width="720" height="225" rx="6" fill="none" stroke="#d2d2d7" stroke-width="0.8"/>
+  <rect x="80" y="135" width="720" height="225" rx="6" fill="none" stroke="#3a3a3c" stroke-width="0.8"/>
 
   <g>
-    <rect x="100" y="155" width="44" height="185" rx="2" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
+    <rect x="100" y="155" width="44" height="185" rx="2" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
     <text x="122" y="251" text-anchor="middle" class="hbm-l" transform="rotate(-90 122 251)">HBM 0</text>
   </g>
   <g>
-    <rect x="736" y="155" width="44" height="185" rx="2" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
+    <rect x="736" y="155" width="44" height="185" rx="2" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
     <text x="758" y="251" text-anchor="middle" class="hbm-l" transform="rotate(-90 758 251)">HBM 1</text>
   </g>
 
   <g transform="translate(170, 155)">
-    <rect width="125" height="125" rx="4" fill="none" stroke="#1d1d1f" stroke-width="0.9"/>
+    <rect width="125" height="125" rx="4" fill="none" stroke="#f5f5f7" stroke-width="0.9"/>
     <text x="62.5" y="22" text-anchor="middle" class="label">systems</text>
     <g transform="translate(18.5, 38)">
-      <rect class="pulse" x="0"  y="0"  width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="24" y="0"  width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="48" y="0"  width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="72" y="0"  width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="0"  y="24" width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="24" y="24" width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="48" y="24" width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="72" y="24" width="16" height="16" fill="#1d1d1f"/>
+      <rect class="pulse" x="0"  y="0"  width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="24" y="0"  width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="48" y="0"  width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="72" y="0"  width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="0"  y="24" width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="24" y="24" width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="48" y="24" width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="72" y="24" width="16" height="16" fill="#f5f5f7"/>
     </g>
     <text x="62.5" y="113" text-anchor="middle" class="meta">C · C++ · Rust</text>
   </g>
 
   <g transform="translate(305, 155)">
-    <rect width="125" height="125" rx="4" fill="none" stroke="#1d1d1f" stroke-width="0.9"/>
+    <rect width="125" height="125" rx="4" fill="none" stroke="#f5f5f7" stroke-width="0.9"/>
     <text x="62.5" y="22" text-anchor="middle" class="label">gpu prog</text>
     <g transform="translate(18.5, 38)">
-      <rect class="pulse" x="0"  y="0"  width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="24" y="0"  width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="48" y="0"  width="16" height="16" fill="#1d1d1f"/>
-      <rect              x="72" y="0"  width="16" height="16" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
-      <rect class="pulse" x="0"  y="24" width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="24" y="24" width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="48" y="24" width="16" height="16" fill="#1d1d1f"/>
-      <rect              x="72" y="24" width="16" height="16" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
+      <rect class="pulse" x="0"  y="0"  width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="24" y="0"  width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="48" y="0"  width="16" height="16" fill="#f5f5f7"/>
+      <rect              x="72" y="0"  width="16" height="16" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
+      <rect class="pulse" x="0"  y="24" width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="24" y="24" width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="48" y="24" width="16" height="16" fill="#f5f5f7"/>
+      <rect              x="72" y="24" width="16" height="16" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
     </g>
     <text x="62.5" y="113" text-anchor="middle" class="meta">HIP · CUDA</text>
   </g>
 
   <g transform="translate(440, 155)">
-    <rect width="125" height="125" rx="4" fill="none" stroke="#1d1d1f" stroke-width="0.9"/>
+    <rect width="125" height="125" rx="4" fill="none" stroke="#f5f5f7" stroke-width="0.9"/>
     <text x="62.5" y="22" text-anchor="middle" class="label">hpc</text>
     <g transform="translate(18.5, 38)">
-      <rect class="pulse" x="0"  y="0"  width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="24" y="0"  width="16" height="16" fill="#1d1d1f"/>
-      <rect              x="48" y="0"  width="16" height="16" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
-      <rect              x="72" y="0"  width="16" height="16" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
-      <rect class="pulse" x="0"  y="24" width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="24" y="24" width="16" height="16" fill="#1d1d1f"/>
-      <rect              x="48" y="24" width="16" height="16" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
-      <rect              x="72" y="24" width="16" height="16" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
+      <rect class="pulse" x="0"  y="0"  width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="24" y="0"  width="16" height="16" fill="#f5f5f7"/>
+      <rect              x="48" y="0"  width="16" height="16" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
+      <rect              x="72" y="0"  width="16" height="16" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
+      <rect class="pulse" x="0"  y="24" width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="24" y="24" width="16" height="16" fill="#f5f5f7"/>
+      <rect              x="48" y="24" width="16" height="16" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
+      <rect              x="72" y="24" width="16" height="16" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
     </g>
     <text x="62.5" y="113" text-anchor="middle" class="meta">MPI · OpenMP</text>
   </g>
 
   <g transform="translate(575, 155)">
-    <rect width="125" height="125" rx="4" fill="none" stroke="#1d1d1f" stroke-width="0.9"/>
+    <rect width="125" height="125" rx="4" fill="none" stroke="#f5f5f7" stroke-width="0.9"/>
     <text x="62.5" y="22" text-anchor="middle" class="label">compilers</text>
     <g transform="translate(18.5, 38)">
-      <rect class="pulse" x="0"  y="0"  width="16" height="16" fill="#1d1d1f"/>
-      <rect              x="24" y="0"  width="16" height="16" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
-      <rect              x="48" y="0"  width="16" height="16" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
-      <rect              x="72" y="0"  width="16" height="16" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
-      <rect class="pulse" x="0"  y="24" width="16" height="16" fill="#1d1d1f"/>
-      <rect class="pulse" x="24" y="24" width="16" height="16" fill="#1d1d1f"/>
-      <rect              x="48" y="24" width="16" height="16" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
-      <rect              x="72" y="24" width="16" height="16" fill="none" stroke="#1d1d1f" stroke-width="0.7"/>
+      <rect class="pulse" x="0"  y="0"  width="16" height="16" fill="#f5f5f7"/>
+      <rect              x="24" y="0"  width="16" height="16" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
+      <rect              x="48" y="0"  width="16" height="16" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
+      <rect              x="72" y="0"  width="16" height="16" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
+      <rect class="pulse" x="0"  y="24" width="16" height="16" fill="#f5f5f7"/>
+      <rect class="pulse" x="24" y="24" width="16" height="16" fill="#f5f5f7"/>
+      <rect              x="48" y="24" width="16" height="16" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
+      <rect              x="72" y="24" width="16" height="16" fill="none" stroke="#f5f5f7" stroke-width="0.7"/>
     </g>
     <text x="62.5" y="113" text-anchor="middle" class="meta">LLVM · GDB</text>
   </g>
 
   <g transform="translate(170, 300)">
-    <rect width="530" height="42" rx="4" fill="none" stroke="#1d1d1f" stroke-width="0.9"/>
+    <rect width="530" height="42" rx="4" fill="none" stroke="#f5f5f7" stroke-width="0.9"/>
     <text x="265" y="18" text-anchor="middle" class="meta">Infinity Fabric · L2 · Memory Controllers</text>
-    <line x1="20" y1="32" x2="510" y2="32" stroke="#d2d2d7" stroke-width="0.6"/>
-    <circle class="drift" cx="20" cy="32" r="2" fill="#1d1d1f"/>
+    <line x1="20" y1="32" x2="510" y2="32" stroke="#3a3a3c" stroke-width="0.6"/>
+    <circle class="drift" cx="20" cy="32" r="2" fill="#f5f5f7"/>
   </g>
 
   <text x="440" y="402" text-anchor="middle" class="footer">Calgary, Canada</text>
