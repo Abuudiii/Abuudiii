@@ -24,9 +24,9 @@
 
 </div>
 
----
+<br/>
 
-## ╭─ /proc/self/maps  ::  about
+### <samp>❯ about</samp>
 
 ```c
 0xFFFFFFFFFFFF  ┌─────────────────────────┐
@@ -56,108 +56,46 @@ ask_me    = <TOPICS YOU LOVE>
 fun_fact  = <SOMETHING QUIRKY>
 ```
 
-## ╭─ stack  ::  linked libraries
+### <samp>❯ stack</samp>
 
-<div align="center">
+<p>
+  <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
+  <img src="https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/-ROCm-ED1C24?style=flat-square&logo=amd&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/-GDB-A42E2B?style=flat-square&logo=gnu&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+</p>
 
-![C](https://img.shields.io/badge/-C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![ROCm](https://img.shields.io/badge/-ROCm-ED1C24?style=for-the-badge&logo=amd&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![GDB](https://img.shields.io/badge/-GDB-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+### <samp>❯ telemetry</samp>
 
-</div>
+<p>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Abuudiii&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abuudiii&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" />
+</p>
 
-## ╭─ scheduler  ::  what's running
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abuudiii&hide_border=true&theme=tokyonight" alt="streak" height="160" />
 
-```
-                  t →
-T0  <FOCUS A>   ━━●━━━━━━━━●━━━━━━━━━●━━━━━━━━━━━ acquire
-T1  <FOCUS B>   ━━━━●━━━━━━│━━━━●━━━━│━━━━━━━━━━━ wait
-T2  <FOCUS C>   ━━━━━━●━━━━│━━━━━━●━━│━━━━━━━━━━━ wait
-T3  <FOCUS D>   ━━━━━━━━●━━│━━━━━━━━●│━━━━━━━━━━━ wait
-                           ▼          ▼
-                        [mutex]    [mutex]
-                           │          │
-                        ┌──┴──┐    ┌──┴──┐
-                        ▼     ▼    ▼     ▼
-                       CAS  futex barrier  cv.notify
-```
+### <samp>❯ trace</samp>
 
-> _Each lane is something I'm actively working on. Replace the `<FOCUS *>`
->  labels with current projects, side quests, or research threads._
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abuudiii/Abuudiii/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abuudiii/Abuudiii/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Abuudiii/Abuudiii/output/github-contribution-grid-snake.svg" />
+</picture>
 
-## ╭─ pipeline  ::  in flight
+### <samp>❯ connect</samp>
 
-```
-   cycle →     1     2     3     4     5     6     7
-            ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
-   IDEA     │ p₁  │ p₂  │ p₃  │ p₄  │ p₅  │ p₆  │ p₇  │
-            ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-   DESIGN   │     │ p₁  │ p₂  │ p₃  │ p₄  │ p₅  │ p₆  │
-            ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-   BUILD    │     │     │ p₁  │ p₂  │▓p₃▓│ p₄  │ p₅  │   ← stall (debugging)
-            ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-   TEST     │     │     │     │ p₁  │ p₂  │     │ p₄  │
-            ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-   SHIP     │     │     │     │     │ p₁  │ p₂  │     │
-            └─────┴─────┴─────┴─────┴─────┴─────┴─────┘
-                                          hazard ↑  bubble
-```
+<p>
+  <a href="mailto:YOUR_EMAIL_HERE"><img src="https://img.shields.io/badge/-mail-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/-linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://YOUR-WEBSITE.com"><img src="https://img.shields.io/badge/-web-000000?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Abuudiii&style=flat-square&color=58A6FF&label=visitors" />
+</p>
 
-| project | stage  | notes                          |
-|---------|--------|--------------------------------|
-| `p₁`    | SHIP   | <PROJECT NAME / ONE-LINER>     |
-| `p₂`    | SHIP   | <PROJECT NAME / ONE-LINER>     |
-| `p₃`    | BUILD  | <PROJECT NAME — stalled, WHY>  |
-| `p₄`    | TEST   | <PROJECT NAME / ONE-LINER>     |
-| `p₅`    | BUILD  | <PROJECT NAME / ONE-LINER>     |
-
-## ╭─ telemetry  ::  github stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Abuudiii&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abuudiii&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abuudiii&hide_border=true&theme=tokyonight" alt="streak" />
-
-</div>
-
-## ╭─ trace  ::  contribution graph
-
-<!-- snake animation: needs Platane/snk workflow in .github/workflows -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Abuudiii/Abuudiii/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" />
-</div>
-
-## ╭─ syscall  ::  connect
-
-<div align="center">
-
-<a href="mailto:YOUR_EMAIL_HERE">
-  <img src="https://img.shields.io/badge/-mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://www.linkedin.com/in/YOUR_HANDLE">
-  <img src="https://img.shields.io/badge/-linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://YOUR-WEBSITE.com">
-  <img src="https://img.shields.io/badge/-web-000000?style=for-the-badge&logo=googlechrome&logoColor=white" />
-</a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=Abuudiii&style=flat-square&color=58A6FF&label=visitors" />
-
-</div>
-
-<div align="center">
 <sub><code>$ exit 0</code></sub>
-</div>
