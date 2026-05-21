@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="Process address space">
+  <defs>
+    <style><![CDATA[
+      text { fill: #f5f5f7; }
+      .title    { font-size: 36px; font-weight: 600; letter-spacing: -1px; }
+      .subtitle { font-size: 13px; fill: #a1a1a6; font-weight: 400; }
+      .addr     { font-size: 10px; fill: #86868b; font-family: ui-monospace, 'SF Mono', Menlo, monospace; }
+      .seg      { font-size: 11px; font-weight: 500; letter-spacing: 0.3px; }
+      .seg-s    { font-size: 10px; font-weight: 500; letter-spacing: 0.5px; fill: #a1a1a6; }
+      .ptr      { font-size: 10px; font-weight: 600; fill: #f5f5f7; font-family: ui-monospace, 'SF Mono', Menlo, monospace; }
+      .meta     { font-size: 9px; fill: #86868b; letter-spacing: 1.4px; text-transform: uppercase; font-weight: 500; }
+      .footer   { font-size: 12px; fill: #86868b; letter-spacing: 0.4px; }
+    ]]></style>
+  </defs>
+
+  <rect width="880" height="500" fill="#000000"/>
+
+  <text x="440" y="60" text-anchor="middle" class="title">Address Space</text>
+  <text x="440" y="84" text-anchor="middle" class="subtitle">virtual memory · 64-bit user process</text>
+
+  <text x="298" y="124" text-anchor="end" class="addr">0xFFFFFFFFFFFF</text>
+  <text x="298" y="416" text-anchor="end" class="addr">0x000000400000</text>
+
+  <rect x="310" y="118" width="260" height="294" fill="none" stroke="#3a3a3c" stroke-width="0.8" rx="4"/>
+
+  <rect x="310" y="118" width="260" height="32" fill="#0e0e10"/>
+  <text x="440" y="139" text-anchor="middle" class="seg">kernel space</text>
+  <line x1="310" y1="150" x2="570" y2="150" stroke="#3a3a3c" stroke-width="0.5"/>
+
+  <text x="320" y="166" class="meta">stack ↓</text>
+
+  <rect x="310" y="150" width="260" height="0" fill="#f5f5f7" fill-opacity="0.18">
+    <animate attributeName="height"
+             values="0;88;88;0;0"
+             keyTimes="0;0.35;0.55;0.9;1"
+             dur="5s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keySplines="0.4 0 0.6 1; 0 0 1 1; 0.4 0 0.6 1; 0 0 1 1"/>
+  </rect>
+
+  <line x1="575" x2="605" y1="150" y2="150" stroke="#f5f5f7" stroke-width="1.2">
+    <animate attributeName="y1"
+             values="150;238;238;150;150"
+             keyTimes="0;0.35;0.55;0.9;1"
+             dur="5s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keySplines="0.4 0 0.6 1; 0 0 1 1; 0.4 0 0.6 1; 0 0 1 1"/>
+    <animate attributeName="y2"
+             values="150;238;238;150;150"
+             keyTimes="0;0.35;0.55;0.9;1"
+             dur="5s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keySplines="0.4 0 0.6 1; 0 0 1 1; 0.4 0 0.6 1; 0 0 1 1"/>
+  </line>
+  <text x="610" y="154" class="ptr">%rsp
+    <animate attributeName="y"
+             values="154;242;242;154;154"
+             keyTimes="0;0.35;0.55;0.9;1"
+             dur="5s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keySplines="0.4 0 0.6 1; 0 0 1 1; 0.4 0 0.6 1; 0 0 1 1"/>
+  </text>
+
+  <text x="440" y="285" text-anchor="middle" class="meta">free</text>
+
+  <text x="320" y="358" class="meta">heap ↑</text>
+
+  <rect x="310" y="360" width="260" height="0" fill="#f5f5f7" fill-opacity="0.18">
+    <animate attributeName="y"
+             values="360;302;302;360;360"
+             keyTimes="0;0.35;0.55;0.9;1"
+             dur="5s"
+             begin="2.5s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keySplines="0.4 0 0.6 1; 0 0 1 1; 0.4 0 0.6 1; 0 0 1 1"/>
+    <animate attributeName="height"
+             values="0;58;58;0;0"
+             keyTimes="0;0.35;0.55;0.9;1"
+             dur="5s"
+             begin="2.5s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keySplines="0.4 0 0.6 1; 0 0 1 1; 0.4 0 0.6 1; 0 0 1 1"/>
+  </rect>
+
+  <line x1="575" x2="605" y1="360" y2="360" stroke="#f5f5f7" stroke-width="1.2">
+    <animate attributeName="y1"
+             values="360;302;302;360;360"
+             keyTimes="0;0.35;0.55;0.9;1"
+             dur="5s"
+             begin="2.5s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keySplines="0.4 0 0.6 1; 0 0 1 1; 0.4 0 0.6 1; 0 0 1 1"/>
+    <animate attributeName="y2"
+             values="360;302;302;360;360"
+             keyTimes="0;0.35;0.55;0.9;1"
+             dur="5s"
+             begin="2.5s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keySplines="0.4 0 0.6 1; 0 0 1 1; 0.4 0 0.6 1; 0 0 1 1"/>
+  </line>
+  <text x="610" y="364" class="ptr">brk
+    <animate attributeName="y"
+             values="364;306;306;364;364"
+             keyTimes="0;0.35;0.55;0.9;1"
+             dur="5s"
+             begin="2.5s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keySplines="0.4 0 0.6 1; 0 0 1 1; 0.4 0 0.6 1; 0 0 1 1"/>
+  </text>
+
+  <line x1="310" y1="362" x2="570" y2="362" stroke="#3a3a3c" stroke-width="0.5"/>
+  <text x="440" y="375" text-anchor="middle" class="seg-s">.bss</text>
+  <line x1="310" y1="379" x2="570" y2="379" stroke="#3a3a3c" stroke-width="0.3"/>
+  <text x="440" y="392" text-anchor="middle" class="seg-s">.data</text>
+  <line x1="310" y1="396" x2="570" y2="396" stroke="#3a3a3c" stroke-width="0.3"/>
+  <text x="440" y="408" text-anchor="middle" class="seg-s">.rodata · .text</text>
+
+  <text x="440" y="448" text-anchor="middle" class="footer">push  ·  pop  ·  malloc  ·  free</text>
+</svg>

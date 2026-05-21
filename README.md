@@ -25,24 +25,7 @@
 
 ### <samp>❯ about</samp>
 
-```c
-0xFFFFFFFFFFFF  ┌─────────────────────────┐
-                │      kernel space       │  <PRIVILEGED INTERESTS / MISSION>
-                ├─────────────────────────┤  ← %rsp
-                │          stack          │  <RECENT WORK / WHAT I JUST SHIPPED>
-                │            │            │
-                │            ▼            │
-                │                         │
-                │            ▲            │
-                │            │            │
-                │           heap          │  <CURRENTLY LEARNING / GROWING>
-                ├─────────────────────────┤
-                │          .bss           │  <UNINITIALIZED — TBD / WISHLIST>
-                │          .data          │  <CONSTANTS — PRINCIPLES I HOLD>
-                │         .rodata         │  <READ-ONLY — THINGS I BELIEVE>
-                │          .text          │  <ENTRY — WHAT I DO DAY-TO-DAY>
-0x000000400000  └─────────────────────────┘  ← entry point
-```
+<img src="./assets/memory.svg" alt="Process address space" width="100%" />
 
 ```ini
 [identity]
