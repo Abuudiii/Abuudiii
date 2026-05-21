@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', Menlo, monospace" role="img" aria-label="ABUUDIII compute die diagram">
+  <defs>
+    <linearGradient id="pkg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="iod" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f3a4a"/>
+      <stop offset="1" stop-color="#102230"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#00d4ff" stop-opacity="0.85"/>
+      <stop offset="0.65" stop-color="#00d4ff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#00d4ff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1;1.5" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="-0.5;2" dur="2.6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="hbmTex" x="0" y="0" width="70" height="10" patternUnits="userSpaceOnUse">
+      <rect width="70" height="10" fill="#1b2028"/>
+      <line x1="0" y1="0.5" x2="70" y2="0.5" stroke="#3a424d" stroke-width="0.6"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style><![CDATA[
+      @keyframes pulse { 0%,100% { opacity: 0.35; } 50% { opacity: 1; } }
+      @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
+      @keyframes scan  { 0% { transform: translateX(0); } 100% { transform: translateX(556px); } }
+      .active { animation: pulse 1.9s ease-in-out infinite; }
+      .d0 { animation-delay: 0.0s; } .d1 { animation-delay: 0.2s; }
+      .d2 { animation-delay: 0.4s; } .d3 { animation-delay: 0.6s; }
+      .d4 { animation-delay: 0.8s; } .d5 { animation-delay: 1.0s; }
+      .led    { animation: blink 1.4s ease-in-out infinite; }
+      .scanline { animation: scan 3s linear infinite; }
+      text { fill: #c9d1d9; }
+      .t-title { font-size: 19px; font-weight: 700; fill: #f0f6fc; letter-spacing: 1px; }
+      .t-sub   { font-size: 11px; fill: #8b949e; }
+      .t-xcd   { font-size: 12px; font-weight: 700; }
+      .t-meta  { font-size: 10px; fill: #8b949e; }
+      .t-chip  { font-size: 10px; font-weight: 700; }
+    ]]></style>
+  </defs>
+
+  <rect width="880" height="500" fill="#0d1117"/>
+
+  <text x="440" y="28" text-anchor="middle" class="t-title">ABUUDIII :: MI-Y3  ·  GPU SWE Intern</text>
+  <text x="440" y="46" text-anchor="middle" class="t-sub">pkg: Calgary, Canada  ·  low-level / HPC / GPU</text>
+
+  <rect x="30" y="65" width="820" height="380" rx="14" fill="url(#pkg)" stroke="#ED1C24" stroke-width="1.2" stroke-opacity="0.55"/>
+  <text x="48" y="86" class="t-chip" fill="#ED1C24">AMD</text>
+  <text x="832" y="438" text-anchor="end" font-size="8" fill="#484f58">MADE WITH CARE · YYC</text>
+
+  <g>
+    <rect x="50" y="100" width="70" height="125" rx="3" fill="url(#hbmTex)" stroke="#30363d"/>
+    <text x="85" y="166" text-anchor="middle" class="t-chip" fill="#c9d1d9">HBM0</text>
+    <rect x="50" y="240" width="70" height="125" rx="3" fill="url(#hbmTex)" stroke="#30363d"/>
+    <text x="85" y="306" text-anchor="middle" class="t-chip" fill="#c9d1d9">HBM1</text>
+  </g>
+
+  <g>
+    <rect x="760" y="100" width="70" height="125" rx="3" fill="url(#hbmTex)" stroke="#30363d"/>
+    <text x="795" y="166" text-anchor="middle" class="t-chip" fill="#c9d1d9">HBM2</text>
+    <rect x="760" y="240" width="70" height="125" rx="3" fill="url(#hbmTex)" stroke="#30363d"/>
+    <text x="795" y="306" text-anchor="middle" class="t-chip" fill="#c9d1d9">HBM3</text>
+  </g>
+
+  <g>
+    <rect x="135" y="100" width="148" height="150" rx="6" fill="#0a1a24" stroke="#00d4ff" stroke-width="1.4"/>
+    <text x="209" y="121" text-anchor="middle" class="t-xcd" fill="#00d4ff">XCD0</text>
+    <text x="209" y="135" text-anchor="middle" class="t-meta">systems</text>
+    <g transform="translate(157, 145)">
+      <rect class="active d0" x="0"  y="0"  width="20" height="20" rx="2" fill="#00d4ff" filter="url(#glow)"/>
+      <rect class="active d1" x="28" y="0"  width="20" height="20" rx="2" fill="#00d4ff" filter="url(#glow)"/>
+      <rect class="active d2" x="56" y="0"  width="20" height="20" rx="2" fill="#00d4ff" filter="url(#glow)"/>
+      <rect class="active d3" x="84" y="0"  width="20" height="20" rx="2" fill="#00d4ff" filter="url(#glow)"/>
+      <rect class="active d1" x="0"  y="28" width="20" height="20" rx="2" fill="#00d4ff" filter="url(#glow)"/>
+      <rect class="active d2" x="28" y="28" width="20" height="20" rx="2" fill="#00d4ff" filter="url(#glow)"/>
+      <rect class="active d3" x="56" y="28" width="20" height="20" rx="2" fill="#00d4ff" filter="url(#glow)"/>
+      <rect class="active d4" x="84" y="28" width="20" height="20" rx="2" fill="#00d4ff" filter="url(#glow)"/>
+    </g>
+    <text x="209" y="240" text-anchor="middle" class="t-meta">C · C++ · Rust · ASM</text>
+  </g>
+
+  <g>
+    <rect x="291" y="100" width="148" height="150" rx="6" fill="#240a18" stroke="#ff006e" stroke-width="1.4"/>
+    <text x="365" y="121" text-anchor="middle" class="t-xcd" fill="#ff006e">XCD1</text>
+    <text x="365" y="135" text-anchor="middle" class="t-meta">gpu prog</text>
+    <g transform="translate(313, 145)">
+      <rect class="active d2" x="0"  y="0"  width="20" height="20" rx="2" fill="#ff006e" filter="url(#glow)"/>
+      <rect class="active d3" x="28" y="0"  width="20" height="20" rx="2" fill="#ff006e" filter="url(#glow)"/>
+      <rect class="active d0" x="56" y="0"  width="20" height="20" rx="2" fill="#ff006e" filter="url(#glow)"/>
+      <rect              x="84" y="0"  width="20" height="20" rx="2" fill="#3a1020" opacity="0.55"/>
+      <rect class="active d4" x="0"  y="28" width="20" height="20" rx="2" fill="#ff006e" filter="url(#glow)"/>
+      <rect class="active d1" x="28" y="28" width="20" height="20" rx="2" fill="#ff006e" filter="url(#glow)"/>
+      <rect class="active d5" x="56" y="28" width="20" height="20" rx="2" fill="#ff006e" filter="url(#glow)"/>
+      <rect              x="84" y="28" width="20" height="20" rx="2" fill="#3a1020" opacity="0.55"/>
+    </g>
+    <text x="365" y="240" text-anchor="middle" class="t-meta">HIP · CUDA · shaders</text>
+  </g>
+
+  <g>
+    <rect x="447" y="100" width="148" height="150" rx="6" fill="#241a08" stroke="#ffbe0b" stroke-width="1.4"/>
+    <text x="521" y="121" text-anchor="middle" class="t-xcd" fill="#ffbe0b">XCD2</text>
+    <text x="521" y="135" text-anchor="middle" class="t-meta">hpc</text>
+    <g transform="translate(469, 145)">
+      <rect class="active d1" x="0"  y="0"  width="20" height="20" rx="2" fill="#ffbe0b" filter="url(#glow)"/>
+      <rect class="active d4" x="28" y="0"  width="20" height="20" rx="2" fill="#ffbe0b" filter="url(#glow)"/>
+      <rect              x="56" y="0"  width="20" height="20" rx="2" fill="#3a2a08" opacity="0.55"/>
+      <rect              x="84" y="0"  width="20" height="20" rx="2" fill="#3a2a08" opacity="0.55"/>
+      <rect class="active d3" x="0"  y="28" width="20" height="20" rx="2" fill="#ffbe0b" filter="url(#glow)"/>
+      <rect class="active d0" x="28" y="28" width="20" height="20" rx="2" fill="#ffbe0b" filter="url(#glow)"/>
+      <rect              x="56" y="28" width="20" height="20" rx="2" fill="#3a2a08" opacity="0.55"/>
+      <rect              x="84" y="28" width="20" height="20" rx="2" fill="#3a2a08" opacity="0.55"/>
+    </g>
+    <text x="521" y="240" text-anchor="middle" class="t-meta">MPI · OpenMP · SIMD</text>
+  </g>
+
+  <g>
+    <rect x="603" y="100" width="148" height="150" rx="6" fill="#18092a" stroke="#8338ec" stroke-width="1.4"/>
+    <text x="677" y="121" text-anchor="middle" class="t-xcd" fill="#8338ec">XCD3</text>
+    <text x="677" y="135" text-anchor="middle" class="t-meta">compilers</text>
+    <g transform="translate(625, 145)">
+      <rect class="active d2" x="0"  y="0"  width="20" height="20" rx="2" fill="#8338ec" filter="url(#glow)"/>
+      <rect              x="28" y="0"  width="20" height="20" rx="2" fill="#1a0a30" opacity="0.55"/>
+      <rect              x="56" y="0"  width="20" height="20" rx="2" fill="#1a0a30" opacity="0.55"/>
+      <rect              x="84" y="0"  width="20" height="20" rx="2" fill="#1a0a30" opacity="0.55"/>
+      <rect class="active d0" x="0"  y="28" width="20" height="20" rx="2" fill="#8338ec" filter="url(#glow)"/>
+      <rect class="active d5" x="28" y="28" width="20" height="20" rx="2" fill="#8338ec" filter="url(#glow)"/>
+      <rect              x="56" y="28" width="20" height="20" rx="2" fill="#1a0a30" opacity="0.55"/>
+      <rect              x="84" y="28" width="20" height="20" rx="2" fill="#1a0a30" opacity="0.55"/>
+    </g>
+    <text x="677" y="240" text-anchor="middle" class="t-meta">LLVM · GDB · perf</text>
+  </g>
+
+  <g>
+    <rect x="135" y="265" width="616" height="105" rx="6" fill="url(#iod)" stroke="#4cc9f0" stroke-width="1.2"/>
+    <text x="443" y="285" text-anchor="middle" class="t-xcd" fill="#4cc9f0">IOD  ::  Infinity Fabric  ·  L2 Cache  ·  Memory Controllers</text>
+
+    <rect x="155" y="305" width="576" height="14" rx="3" fill="#0a1f30"/>
+    <rect x="155" y="305" width="576" height="14" rx="3" fill="url(#flow)"/>
+    <g clip-path="inset(0)">
+      <rect class="scanline" x="155" y="305" width="20" height="14" fill="#00d4ff" opacity="0.7" rx="2"/>
+    </g>
+
+    <text x="443" y="345" text-anchor="middle" class="t-meta">L2 :: low-level SWE   ◄═══════════════════════►   HBM :: HPC / GPU</text>
+  </g>
+
+  <text x="50" y="430" class="t-meta">$ uptime</text>
+  <text x="115" y="430" class="t-meta" fill="#c9d1d9">3rd year  ·  GPU SWE intern  ·  status:</text>
+  <circle cx="355" cy="427" r="4" fill="#3fb950" class="led"/>
+  <text x="365" y="430" class="t-meta" fill="#3fb950">ONLINE</text>
+  <text x="830" y="430" text-anchor="end" class="t-meta">loves cs / low-level tech</text>
+
+  <text x="440" y="478" text-anchor="middle" class="t-sub" font-size="10">github.com/Abuudiii  ·  always shipping, always learning</text>
+</svg>
