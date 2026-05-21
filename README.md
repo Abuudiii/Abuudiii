@@ -15,14 +15,14 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│  ABUUDIII :: COMPUTE DIE                rev. <YEAR>  ·  <ROLE>       │
+│  ABUUDIII :: COMPUTE DIE             rev. <YEAR>  ·  <ROLE>          │
 ├──────────────────────────────────────────────────────────────────────┤
-│  ┌──────┬──────┬──────┬──────┬──────┬──────┬──────┬──────┐           │
-│  │  C   │ C++  │ Rust │ CUDA │  Py  │ Lnx  │ Git  │ ASM  │ ██ daily  │
-│  │  ██  │  ██  │  ▒▒  │  ██  │  ██  │  ██  │  ██  │  ▒▒  │ ▒▒ casual │
-│  └──────┴──────┴──────┴──────┴──────┴──────┴──────┴──────┘           │
-│  L2: low-level SWE    ◄──────►    HBM: HPC / GPU                     │
-│  <CITY, COUNTRY>  ·  <N>y uptime  ·  runs hot on <PASSION>           │
+│  ┌───┐  ┌─────────────────┐  ┌───┐    cores : C  C++  Rust  CUDA     │
+│  │ H │  │ █ █ · █ █ █ █ · │  │ H │            Py  Lnx  Git  Asm      │
+│  │ B │  │ · █ █ █ · █ █ █ │  │ B │    legend: █ active   · idle      │
+│  │ M │  │ █ · █ · █ █ · █ │  │ M │    L2    : low-level SWE          │
+│  └───┘  └──── L2 xbar ────┘  └───┘    HBM   : HPC / GPU              │
+│  <CITY, COUNTRY>  ·  <N>y uptime  ·  loves <PASSION>                 │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
