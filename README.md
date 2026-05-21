@@ -15,7 +15,7 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│  ABUUDIII :: COMPUTE DIE                rev. <YEAR>  ·  <ROLE>       │
+│  ABUUDIII :: COMPUTE DIE                 rev. Y3  ·  GPU SWE Intern  │
 ├──────────────────────────────────────────────────────────────────────┤
 │  ╔════╗ ┌─── SE0 ───┬─── SE1 ───┐ L2 ┌─── SE2 ───┬─── SE3 ───┐ ╔════╗│
 │  ║HBM0║ │ ██ ·· ██  │ ██ ██ ··  │xbar│ ·· ██ ██  │ ██ ·· ██  │ ║HBM1║│
@@ -23,7 +23,7 @@
 │  ╚════╝ └───────────┴───────────┘    └───────────┴───────────┘ ╚════╝│
 │  24 CU · each CU = 4 SIMD32 VALUs        ██ active   ·· idle         │
 │  L2: low-level SWE    ◄──────►    HBM: HPC / GPU                     │
-│  <CITY, COUNTRY>  ·  <N>y uptime  ·  loves <PASSION>                 │
+│  Calgary, Canada  ·  loves cs / low-level tech                       │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -39,20 +39,20 @@
 
 ```c
 0xFFFFFFFFFFFF  ┌─────────────────────────┐
-                │   kernel space          │  <PRIVILEGED INTERESTS / MISSION>
+                │      kernel space       │  <PRIVILEGED INTERESTS / MISSION>
                 ├─────────────────────────┤  ← %rsp
-                │   stack         ▼       │  <RECENT WORK / WHAT I JUST SHIPPED>
-                │     │                   │
-                │     ▼                   │
+                │          stack          │  <RECENT WORK / WHAT I JUST SHIPPED>
+                │            │            │
+                │            ▼            │
                 │                         │
-                │     ▲                   │
-                │     │                   │
-                │   heap          ▲       │  <CURRENTLY LEARNING / GROWING>
+                │            ▲            │
+                │            │            │
+                │           heap          │  <CURRENTLY LEARNING / GROWING>
                 ├─────────────────────────┤
-                │   .bss                  │  <UNINITIALIZED — TBD / WISHLIST>
-                │   .data                 │  <CONSTANTS — PRINCIPLES I HOLD>
-                │   .rodata               │  <READ-ONLY — THINGS I BELIEVE>
-                │   .text                 │  <ENTRY — WHAT I DO DAY-TO-DAY>
+                │          .bss           │  <UNINITIALIZED — TBD / WISHLIST>
+                │          .data          │  <CONSTANTS — PRINCIPLES I HOLD>
+                │         .rodata         │  <READ-ONLY — THINGS I BELIEVE>
+                │          .text          │  <ENTRY — WHAT I DO DAY-TO-DAY>
 0x000000400000  └─────────────────────────┘  ← entry point
 ```
 
