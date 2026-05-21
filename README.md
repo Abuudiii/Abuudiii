@@ -26,17 +26,18 @@
 ### <samp>❯ about</samp>
 
 ```
-   ┌───────────┐      abuudiii@github
-   │ █ █ █ █ █ │      ─────────────────────────────────────
-   │ █ · █ · █ │      OS        : GPU SWE Intern @ AMD
-   │ · █ · █ · │      Host      : University of Calgary
-   │ █ · █ · █ │      Uptime    : 3rd year of CS
-   │ █ █ █ █ █ │      Shell     : zsh + tmux + neovim
-   └───────────┘      Editor    : neovim (btw)
-                      Languages : C · C++ · Rust · Python · CUDA
-                      Location  : Calgary, Canada
-                      Loves     : low-level · HPC · GPU
-                      Reach     : linkedin · mail · github
+                /\
+               /  \           abuudiii@github
+              /    \          ─────────────────────────────────────
+             /  /\  \         OS        : GPU SWE Intern @ AMD
+            /  /  \  \        Host      : University of Calgary
+           /  /----\  \       Uptime    : 3rd year of CS
+          /            \      Shell     : zsh + tmux + neovim
+         /              \     Editor    : neovim (btw)
+        /________________\    Languages : C · C++ · Rust · Python · CUDA
+                              Location  : Calgary, Canada
+                              Loves     : low-level · HPC · GPU
+                              Reach     : linkedin · mail · github
 ```
 
 ```bash
