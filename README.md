@@ -42,11 +42,11 @@
 </picture>
 
 ### <samp>❯ connect</samp>
-
+https://YOUR-WEBSITE.com
 <p>
-  <a href="mailto:YOUR_EMAIL_HERE"><img src="https://img.shields.io/badge/-mail-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/-linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://YOUR-WEBSITE.com"><img src="https://img.shields.io/badge/-web-000000?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+  <a href="mailto:binarysheikh00@gmail.com"><img src="https://img.shields.io/badge/-mail-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/abdullah-tar-gz/"><img src="https://img.shields.io/badge/-linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://abuudiii.github.io/portfolio_/"><img src="https://img.shields.io/badge/-web-000000?style=flat-square&logo=googlechrome&logoColor=white" /></a>
   &nbsp;
   <img src="https://komarev.com/ghpvc/?username=Abuudiii&style=flat-square&color=58A6FF&label=visitors" />
 </p>
