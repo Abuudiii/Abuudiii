@@ -23,8 +23,8 @@
     <text x="345" y="98"  class="key">OS</text>        <text x="465" y="98"  class="val">GPU SWE Intern @ AMD</text>
     <text x="345" y="120" class="key">Host</text>      <text x="465" y="120" class="val">University of Calgary</text>
     <text x="345" y="142" class="key">Uptime</text>    <text x="465" y="142" class="val">3rd year of CS</text>
-    <text x="345" y="164" class="key">Shell</text>     <text x="465" y="164" class="val">zsh + tmux + neovim</text>
-    <text x="345" y="186" class="key">Editor</text>    <text x="465" y="186" class="val">neovim (btw)</text>
+    <text x="345" y="164" class="key">Shell</text>     <text x="465" y="164" class="val">zsh + tmux + neovim + herdr</text>
+    <text x="345" y="186" class="key">Editor</text>    <text x="465" y="186" class="val">lazyvim</text>
     <text x="345" y="208" class="key">Languages</text> <text x="465" y="208" class="val">C · C++ · Rust · Python · CUDA</text>
     <text x="345" y="230" class="key">Location</text>  <text x="465" y="230" class="val">Calgary, Canada</text>
     <text x="345" y="252" class="key">Loves</text>     <text x="465" y="252" class="val">low-level · HPC · GPU</text>
