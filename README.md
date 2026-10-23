@@ -1,4 +1,4 @@
-<img src="./assets/banner.gif" alt="Abdullah Sheikh. Software engineer who loves working low-level. Calgary, AB / CS @ UCalgary, 2028. Stack: C, C++, Rust, Python, CUDA, ROCm, Linux, GDB, Docker. Interests: GPU kernels, compilers, operating systems, drivers, ML systems. A 1-bit dithered Earth turns while the Moon and the ISS orbit and a Starship launches, docks and lands." width="100%" />
+<img src="./assets/banner.gif" alt="A 1-bit dithered Earth turns while the Moon and the ISS orbit and a Starship launches, docks with the ISS and lands." width="100%" />
 
 <p>
   <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
@@ -13,4 +13,4 @@
   <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
 </p>
 
-<samp>[portfolio](https://abuudiii.github.io/portfolio_/) · [linkedin](https://www.linkedin.com/in/abdullah-tar-gz/) · [email](mailto:sheikh07abdullah@gmail.com)</samp>
+<samp>[portfolio](https://abuudiii.github.io/portfolio_/) · [linkedin](https://www.linkedin.com/in/abdullah-tar-gz/) · [email](mailto:sheikh07abdullah@gmail.com)</samp>&nbsp;&nbsp;<img src="https://komarev.com/ghpvc/?username=Abuudiii&style=flat-square&color=58A6FF&label=visitors" />
