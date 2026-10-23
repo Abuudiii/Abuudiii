@@ -1,4 +1,4 @@
-<img src="./assets/banner.gif" alt="A 1-bit dithered Earth turns while the Moon and the ISS orbit and a Starship launches, docks with the ISS and lands." width="100%" />
+<img src="./assets/earth.gif" alt="A 1-bit dithered Earth turns while the Moon and the ISS orbit and a Starship launches, docks with the ISS and lands." width="100%" />
 
 <p>
   <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
