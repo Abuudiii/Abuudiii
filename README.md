@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/badge/-GDB-A42E2B?style=flat-square&logo=gnu&logoColor=white" />
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://komarev.com/ghpvc/?username=Abuudiii&style=flat-square&color=58A6FF&label=visitors" />
 </p>
 
-<samp>[portfolio](https://abuudiii.github.io/portfolio_/) · [linkedin](https://www.linkedin.com/in/abdullah-tar-gz/) · [email](mailto:sheikh07abdullah@gmail.com)</samp>&nbsp;&nbsp;<img src="https://komarev.com/ghpvc/?username=Abuudiii&style=flat-square&color=58A6FF&label=visitors" />
+<samp>[portfolio](https://abuudiii.github.io/portfolio_/) · [linkedin](https://www.linkedin.com/in/abdullah-tar-gz/) · [email](mailto:sheikh07abdullah@gmail.com)</samp>
