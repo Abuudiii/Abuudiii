@@ -1,4 +1,4 @@
-<div align="center">
+<img src="./assets/banner.gif" alt="Abdullah Sheikh. Software engineer who loves working low-level. Calgary, AB / CS @ UCalgary, 2028. Stack: C, C++, Rust, Python, CUDA, ROCm, Linux, GDB, Docker. Interests: GPU kernels, compilers, operating systems, drivers, ML systems. A 1-bit dithered Earth turns while the Moon and the ISS orbit and a Starship launches, docks and lands." width="100%" />
 
 <p>
   <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
@@ -13,41 +13,4 @@
   <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
 </p>
 
-<img src="./assets/die.svg" alt="Abuudiii compute die" width="100%" />
-
-<a href="https://github.com/Abuudiii">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=620&lines=%24+./abuudiii+--init;symbols+loaded.+entering+main()." alt="Typing SVG" />
-</a>
-
-</div>
-
-<br/>
-
-### <samp>❯ about</samp>
-
-<img src="./assets/about.svg" alt="abuudiii @ github" width="100%" />
-
-<img src="./assets/now.svg" alt="what I'm working on" width="100%" />
-
-### <samp>❯ telemetry</samp>
-
-<img src="https://streak-stats.demolab.com?user=Abuudiii&hide_border=true&theme=tokyonight" alt="streak" height="160" />
-
-### <samp>❯ trace</samp>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abuudiii/Abuudiii/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abuudiii/Abuudiii/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Abuudiii/Abuudiii/output/github-contribution-grid-snake.svg" />
-</picture>
-
-### <samp>❯ connect</samp>
-<p>
-  <a href="mailto:sheikh04abdullah@gmail.com"><img src="https://img.shields.io/badge/-mail-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/abdullah-tar-gz/"><img src="https://img.shields.io/badge/-linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://abuudiii.github.io/portfolio_/"><img src="https://img.shields.io/badge/-web-000000?style=flat-square&logo=googlechrome&logoColor=white" /></a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Abuudiii&style=flat-square&color=58A6FF&label=visitors" />
-</p>
-
-<sub><code>$ exit 0</code></sub>
+<samp>[portfolio](https://abuudiii.github.io/portfolio_/) · [linkedin](https://www.linkedin.com/in/abdullah-tar-gz/) · [email](mailto:sheikh07abdullah@gmail.com)</samp>
